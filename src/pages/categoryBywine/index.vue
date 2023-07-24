@@ -94,25 +94,22 @@ export default {
     };
     const getTechnologyData=async()=>{
       const result=await reqTechnology()
-      console.log(result.data.data)
       if(result.status===200){
-        pageData.data=result.data.data
+        pageData.data=result.data
         nav.list=pageData.data.nav
       }
     }
     const getWineWaterData=async()=>{
       const result=await reqWineWater()
-      console.log(result.data.data)
       if(result.status===200){
-        pageData.data=result.data.data
+        pageData.data=result.data
         nav.list=pageData.data.nav
       }
     }
     const getWineData=async()=>{
       const result=await reqWine()
-      console.log(result.data.data)
       if(result.status===200){
-        pageData.data=result.data.data
+        pageData.data=result.data
         nav.list=pageData.data.nav
       }
     }

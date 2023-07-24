@@ -102,8 +102,8 @@ export default {
     const getIcon = async () => {
       const result = await reqIcon();
       if (result.status === 200) {
-        myIcon.iconList = result.data.data.icon;
-        myIcon.swiperList = result.data.data.swiper;
+        myIcon.iconList = result.data.icon;
+        myIcon.swiperList = result.data.swiper;
         console.log(myIcon.list);
       }
     };
