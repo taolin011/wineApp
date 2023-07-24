@@ -1,7 +1,7 @@
 <template>
 
   <router-view ></router-view>
-</template>
+  </template>
 
 <script>
 export default {
@@ -11,7 +11,9 @@ export default {
 
 <style lang="less">
 html,body{
-    height: 100%;
+  height: 100%;
     font-family: cursive;
+    // background: linear-gradient(180.00deg, rgb(248, 232, 203) 29.771%,rgba(253, 245, 231, 0) 80%);
+    background: linear-gradient(90.00deg, rgb(248, 232, 203) 29.771%,rgba(253, 245, 231, 0) 100%);
 }
 </style>

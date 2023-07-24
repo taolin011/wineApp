@@ -2,47 +2,132 @@
     "nav": ["生产工艺", "原料品种"],
     "banner": [{
         "navName": "生产工艺",
+        "listName": ["蒸馏酒", "发酵酒", "配制酒"],
         "navList": [{
-            "distilled_spirits": {
-                "introduction": "蒸馏酒是一类通过蒸馏工艺制成的酒类，酒精含量较高。在发酵后，酒液通过蒸馏过程进行分离和提纯，获得高酒精度的酒。蒸馏酒的特点是味道浓烈、多样丰富，适合纯饮或用于调制鸡尾酒。常见的蒸馏酒有威士忌、白兰地、伏特加和朗姆酒等。",
+                "introduction": "&nbsp&nbsp蒸馏酒是一类通过蒸馏工艺制成的酒类，酒精含量较高。在发酵后，酒液通过蒸馏过程进行分离和提纯，获得高酒精度的酒。蒸馏酒的特点是味道浓烈、多样丰富，适合纯饮或用于调制鸡尾酒。常见的蒸馏酒有威士忌、白兰地、伏特加和朗姆酒等。",
                 "origin": "蒸馏酒产地遍布全球各地。",
                 "raw_materials": "蒸馏酒的制作原料多样，包括谷物（如大麦、玉米、黑麦等）、水果（如葡萄用于白兰地）、甘蔗汁或糖蜜（用于朗姆酒）以及其他谷物或蔬菜。",
-                "common_types": ["威士忌", "白兰地", "伏特加", "朗姆酒"]
+                "common_types": [{
+                    "name": "weisky",
+                    "img":"https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230723154428.png",
+                      "degree":"40%",
+                         "volume":"1L"
+                 }, {
+                     "name":"白兰地",
+                     "img":"https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230723155416.png",
+                     "degree":"40%",
+                     "volume":"700ml"
+                 }, {
+                     "name":"朗姆酒",
+                     "img":"https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230723155213.png",
+                     "degree":"38%~50%",
+                     "volume":"600ml"
+                 }]
             },
-            "fermented_wines": {
-                "introduction": "发酵酒是一类通过发酵过程制成的酒类，具有丰富的口感和香气。在发酵过程中，天然酵母将水果、葡萄或其他植物材料中的糖分转化为酒精，制作出干型至甜型不同口味的酒类。发酵酒种类繁多，其中最为著名的是红葡萄酒、白葡萄酒和玫瑰葡萄酒。",
+            {
+                "introduction": "&nbsp&nbsp发酵酒是一类通过发酵过程制成的酒类，具有丰富的口感和香气。在发酵过程中，天然酵母将水果、葡萄或其他植物材料中的糖分转化为酒精，制作出干型至甜型不同口味的酒类。发酵酒种类繁多，其中最为著名的是红葡萄酒、白葡萄酒和玫瑰葡萄酒。",
                 "origin": "发酵酒产地遍布全球各大葡萄酒产区。",
                 "raw_materials": "发酵酒以各种水果、葡萄或其他含有天然糖分的植物材料为原料。",
-                "common_types": ["红葡萄酒", "白葡萄酒", "玫瑰葡萄酒"]
+                "common_types": [{
+                    "name": "红葡萄酒",
+                    "img":"https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230723155715.png",
+                      "degree":"13%",
+                         "volume":"500ml"
+                 }, {
+                     "name":"白葡萄酒",
+                     "img":"https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230723155849.png",
+                     "degree":"8.5~15%",
+                     "volume":"275ml"
+                 }, {
+                     "name":"玫瑰葡萄酒",
+                     "img":"https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230723160108.png",
+                     "degree":"5~15%",
+                     "volume":"500ml"
+                 }]
             },
-            "blended_beverages": {
-                "introduction": "配制酒是一类通过调配不同酒类、果汁、调味品等混合而成的酒类，具有丰富多样的风味。通过调配不同成分，获得特定的口感和风味，其中最为常见的是各类鸡尾酒、开胃酒和利口酒。",
+            {
+                "introduction": "&nbsp&nbsp配制酒是一类通过调配不同酒类、果汁、调味品等混合而成的酒类，具有丰富多样的风味。通过调配不同成分，获得特定的口感和风味，其中最为常见的是各类鸡尾酒、开胃酒和利口酒。",
                 "origin": "配制酒产地遍布全球各地。",
                 "raw_materials": "配制酒由多种酒类、果汁、调味品等混合而成，原料种类和比例根据所需风味而定。",
-                "common_types": ["鸡尾酒", "开胃酒", "利口酒"]
+                "common_types": [{
+                   "name": "茅台",
+                   "img":"https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230723153732.png",
+                     "degree":"53%",
+                        "volume":"500ml"
+                }, {
+                    "name":"鸡尾酒",
+                    "img":"https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230723154219.png",
+                    "degree":"15%",
+                    "volume":"275ml"
+                }, {
+                    "name":"五粮液",
+                    "img":"https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230723153749.png",
+                    "degree":"52%",
+                    "volume":"500ml"
+                }]
             }
-        }]
+        ]
     }, {
         "navName": "原料品种",
+        "listName": ["谷物", "果酒", "其他"],
         "navList": [{
-            "grain-based_alcohol": {
-                "introduction": "谷物酒是一类以谷物为主要原料制成的酒类，具有独特的口感和香气。谷物酒的制作过程通常包括发酵和蒸馏等步骤，使得酒液中的酒精浓度较高。这类酒通常有浓郁的风味和多样的种类，其中威士忌是最为知名的一种。",
+                "introduction": "&nbsp&nbsp谷物酒是一类以谷物为主要原料制成的酒类，具有独特的口感和香气。谷物酒的制作过程通常包括发酵和蒸馏等步骤，使得酒液中的酒精浓度较高。这类酒通常有浓郁的风味和多样的种类，其中威士忌是最为知名的一种。",
                 "origin": "谷物酒产地遍布全球各地。",
                 "raw_materials": "谷物酒的制作主要使用谷物类原料，如大麦、玉米、黑麦等。",
-                "common_types": ["威士忌", "伏特加", "波本威士忌"]
+                "common_types": [{
+                    "name": "weisky",
+                    "img":"https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230723154428.png",
+                      "degree":"40%",
+                         "volume":"1L"
+                 }, {
+                     "name":"伏特加",
+                     "img":"https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230723154458.png",
+                     "degree":"40%",
+                     "volume":"700ml"
+                 }, {
+                     "name":"啤酒",
+                     "img":"https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230723154833.png",
+                     "degree":">=4%",
+                     "volume":"600ml"
+                 }]
             },
-            "fruit-based_wine": {
-                "introduction": "水果酒是一类以水果为主要原料制成的酒类，口感清新、香气芳香。通过天然酵母的发酵过程，水果中的天然糖分转化为酒精，制作出红葡萄酒、苹果酒等不同风味的水果酒。",
+            {
+                "introduction": "&nbsp&nbsp水果酒是一类以水果为主要原料制成的酒类，口感清新、香气芳香。通过天然酵母的发酵过程，水果中的天然糖分转化为酒精，制作出红葡萄酒、苹果酒等不同风味的水果酒。",
                 "origin": "水果酒产地遍布全球各地，不同地区以其独特的水果种类酿造出独具风味的水果酒。",
                 "raw_materials": "水果酒主要使用各类水果作为原料，如葡萄、苹果、樱桃等。",
-                "common_types": ["红葡萄酒", "苹果酒", "樱桃酒"]
+                "common_types": [{
+                    "name": "红葡萄酒",
+                    "img":"https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230723155715.png",
+                      "degree":"13%",
+                         "volume":"500ml"
+                 }, {
+                     "name":"苹果酒",
+                     "img":"https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230723160339.png",
+                     "degree":"2~8%",
+                     "volume":"275ml"
+                 }, {
+                     "name":"樱桃酒",
+                     "img":"https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230723160452.png",
+                     "degree":">=7%",
+                     "volume":"500ml"
+                 }]
             },
-            "other_alcoholic_beverages": {
-                "introduction": "其他类酒包含各种非传统原料酿造而成的酒类，风味丰富多样。这类酒可能使用花草、树木汁液等不同原料，并通过特殊的发酵和蒸馏工艺制成。常见的其他类酒包括杜松子酒、梅子酒等。",
+            {
+                "introduction": "&nbsp&nbsp其他类酒包含各种非传统原料酿造而成的酒类，风味丰富多样。这类酒可能使用花草、树木汁液等不同原料，并通过特殊的发酵和蒸馏工艺制成。常见的其他类酒包括杜松子酒、梅子酒等。",
                 "origin": "其他类酒的产地因原料种类不同而异，可以在不同地区找到制造商。",
                 "raw_materials": "其他类酒使用多种非传统原料，如杜松子、梅子等。",
-                "common_types": ["杜松子酒", "梅子酒", "蒸馏酒草药酒"]
+                "common_types": [{
+                    "name": "杜松子酒",
+                    "img":"https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230723160707.png",
+                      "degree":"35~55%",
+                         "volume":"500ml"
+                 }, {
+                     "name":"梅子酒",
+                     "img":"https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230723160902.png",
+                     "degree":"12~30%",
+                     "volume":"275ml"
+                 }]
             }
-        }]
+        ]
     }]
 }

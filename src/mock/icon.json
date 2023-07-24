@@ -1,0 +1,28 @@
+{
+    "icon": [{
+        "text": "白酒分类",
+        "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/wine.png"
+    },
+    {
+        "text": "工艺路线",
+        "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/technology.png"
+    },
+    {
+        "text": "酒水分类",
+        "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/winewater.png"
+    },
+    {
+        "text": "酒文化",
+        "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/winewater.png"
+    }
+],
+    "swiper":[
+        {
+            "img":"https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230725072306.png"
+        },{
+            "img":"https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230725072147.png"
+        },{
+            "img":"https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230725072540.png"
+        }
+    ]
+}

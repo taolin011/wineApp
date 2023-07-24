@@ -13,6 +13,8 @@ module.exports = defineConfig({
         'store': '@/store',
         'router': '@/router',
         'style': '@/style',
+        'api': '@/api',
+        'mock': '@/mock',
       }
     }
   },

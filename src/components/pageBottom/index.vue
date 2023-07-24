@@ -23,7 +23,7 @@ export default {
   bottom: 0;
   height: 67px;
   width:100%;
-  background-color: white;
+  background: linear-gradient(0.00deg, rgb(232, 190, 131),rgba(255, 255, 255, 0) 100%);
   display: flex;
   justify-content: space-around;
   align-items: center;

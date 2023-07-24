@@ -1,0 +1,119 @@
+{
+    "nav": ["粮食", "香型"],
+    "banner": [{
+        "navName": "粮食",
+        "listName": ["单粮酒", "多粮酒"],
+        "navList": [{
+                "name": "单粮酒",
+                "introduction": "&nbsp&nbsp单粮酒是一种以单一粮食为原料酿造的酒类，通常指的是以单一类型的粮食为主要原料进行酿造的酒。不同的粮食会赋予酒不同的风味和特点，因此单粮酒在口感和风味上有其独特之处。<br>&nbsp&nbsp'单粮酒'并非一种特定的酒类，而是一个泛称，可以用来描述以单一类型的粮食为原料酿造的各种不同酒类。",
+                "origin": "",
+                "raw_materials": "单粮酒的原料可能因其所属的具体类型而有所不同",
+                "common_types": [{
+                    "name": "泸州老窖",
+                    "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230724105437.png",
+                    "degree": "52%",
+                    "volume": ""
+                },
+                {
+                    "name": "汾酒",
+                    "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230724073152.png",
+                    "degree": "53%",
+                    "volume": ""
+                }]
+            },
+            {
+                "name": "多粮酒",
+                "introduction": "&nbsp&nbsp多粮酒是指使用多种不同类型的粮食作为原料酿造的酒类。通过混合不同种类的粮食，可以创造出独特的口感和风味，使得多粮酒在味觉上更为复杂和多样化。<br>&nbsp&nbsp多粮酒的原料和比例取决于酿酒师的配方和目标风味。混合不同种类的粮食可以创造出多样化的风味和口感，因此多粮酒成为一些消费者喜爱的选择。 ",
+                "origin": "",
+                "raw_materials": "",
+                "common_types": [{
+                    "name": "剑南春",
+                    "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230724141140.png",
+                    "degree": "53%",
+                    "volume": ""
+                },
+                {
+                    "name": "古井贡酒",
+                    "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230724141221.png",
+                    "degree": "58%",
+                    "volume": ""
+                }]
+            }
+        ]
+    }, {
+        "navName": "香型",
+        "listName": ["浓香型", "酱香型",  "清香型","米香型","凤香型"],
+        "navList": [{
+            "name": "浓香型",
+            "introduction": "&nbsp&nbsp浓香型白酒是中国传统的一类白酒，也称为高粱香型白酒。它是中国最主要的白酒类型之一，以浓郁的香味和独特的口感而闻名。浓香型白酒主要产于中国的江浙沪、福建、湖南、湖北、四川等地区。",
+            "origin": "",
+            "raw_materials": "高粱，大米、小麦、糯米等",
+            "common_types": [{
+                "name": "国窖1573",
+                "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230724141247.png",
+                "degree": "43%",
+                "volume": ""
+            },
+            {
+                "name": "今世缘",
+                "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230724141255.png",
+                "degree": "40%",
+                "volume": ""
+            }]
+        },
+        {
+            "name": "酱香型",
+            "introduction": "&nbsp&nbsp酱香型白酒是中国传统的一类白酒，以其独特的酱香味道而闻名。它是中国著名的名优白酒之一，具有悠久的历史和深厚的文化背景。<br>&nbsp&nbsp酱香型白酒以其特殊的酱香味而著称。这种香气是由酿造过程中特定的微生物发酵和陈化过程中产生的复杂化合物和香气醇体所赋予的。酱香型白酒通常具有浓郁、独特的香气，如酱香、果香、醇香等。",
+            "origin": "",
+            "raw_materials": "高粱，小麦等",
+            "common_types": [{
+                "name": "茅台",
+                "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230724072926.png",
+                "degree": "53%",
+                "volume": ""
+            },
+            {
+                "name": "郎酒",
+                "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230724141308.png",
+                "degree": "53%",
+                "volume": ""
+            }]
+        },
+        {
+            "name": "清香型",
+            "introduction": "&nbsp&nbsp清香型白酒是中国白酒的一类，以其清新、淡雅的香气和口感而受到喜爱。它是中国名优白酒的重要分类之一，具有悠久的历史和独特的酿造工艺。<br>&nbsp&nbsp清香型白酒以其清新、淡雅的香气和口感著称。相比酱香型白酒，清香型白酒的香气更为轻盈，呈现出花香、果香或者淡淡的麦香等特点。其口感通常柔和、爽口，带有一定的甜香和丰富的层次感。",
+            "origin": "",
+            "raw_materials": "高粱，大米、小麦、水等",
+            "common_types": [{
+                "name": "红星二锅头",
+                "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230724141314.png",
+                "degree": "56%",
+                "volume": ""
+            },
+            {
+                "name": "牛栏山",
+                "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230724141544.png",
+                "degree": "42%",
+                "volume": ""
+            }]
+        },
+        {
+            "name": "米香型",
+            "introduction": "&nbsp&nbsp米香型白酒是中国白酒中的一个特殊类别，以其独特的米香味道而闻名。它是中国著名的名优白酒之一，拥有悠久的历史和独特的酿造工艺。<br>&nbsp&nbsp米香型白酒因其独特的米香味而得名。它具有清新、淡雅的香气，主要表现为一种类似于糯米或米饭的香味。这种香气使得米香型白酒与其他类别的白酒有明显的区别，成为其酿造工艺的独特标志。",
+            "origin": "",
+            "raw_materials": "大米、小麦、水等",
+            "common_types": [{
+                "name": "桂林三花酒",
+                "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230724141330.png",
+                "degree": "45%",
+                "volume": ""
+            },
+            {
+                "name": "红荔",
+                "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230724141338.png",
+                "degree": "30%",
+                "volume": ""
+            }]
+        }]
+    }]
+}

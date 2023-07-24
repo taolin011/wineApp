@@ -1,0 +1,118 @@
+{
+    "nav": ["发酵方式", "发酵曲"],
+    "banner": [{
+        "navName": "发酵方式",
+        "listName": ["固态法", "固液结合", "液体法"],
+        "navList": [{
+                "name": "固态法白酒",
+                "introduction": "&nbsp&nbsp固态法白酒是指在蒸煮、糖化、发酵、蒸馏等主要过程中采用固态基质形态生产出的白酒.<br>传统固态法白酒生产是采用高粱、大米、糯米、玉米、小麦等原料，固态糖化发酵，开放式生产，自然微生物接种制曲，甄桶蒸馏，陶坛或酒海储存陈酿等一系列独特的工艺和设备酿制而成。",
+                "origin": "",
+                "raw_materials": "高粱、大米、糯米、玉米、小麦等原料",
+                "common_types": [{
+                    "name": "茅台",
+                    "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230724072926.png",
+                    "degree": "53%",
+                    "volume": ""
+                },
+                {
+                    "name": "五粮液",
+                    "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230724073044.png",
+                    "degree": "52%",
+                    "volume": ""
+                }]
+            },
+            {
+                "name": "固液结合法白酒",
+                "introduction": "&nbsp&nbsp固液混合法白酒，也称为调和白酒，是一种将固体和液体原料混合后进行蒸馏酿造的白酒类型。与传统的单一原料白酒（如高粱酒、小麦酒等）不同，固液混合法白酒采用了多种不同类型的原料混合酿造，以达到更加丰富和复杂的口感和风味。",
+                "origin": "",
+                "raw_materials": "",
+                "common_types": [{
+                    "name": "汾酒",
+                    "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230724073152.png",
+                    "degree": "53%",
+                    "volume": ""
+                },
+                {
+                    "name": "牛栏山",
+                    "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230724073208.png",
+                    "degree": "58%",
+                    "volume": ""
+                }]
+            }, {
+                "name": "液体法白酒",
+                "introduction": "&nbsp&nbsp液态法白酒，也称为水剑白酒，是一种以液态发酵产酒的方式酿造的白酒。与固液混合法白酒不同，液态法白酒的原料通常是单一的粮食，如高粱、小麦、大米等，而不是混合多种不同种类的原料。这种制作方法常见于中国的白酒类别，如茅台、五粮液等。",
+                "origin": "",
+                "raw_materials": "",
+                "common_types": [{
+                    "name": "洋河大曲",
+                    "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230724073052.png",
+                    "degree": "42%",
+                    "volume": ""
+                },
+                {
+                    "name": "泸州老窖",
+                    "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230724073100.png",
+                    "degree": "52%",
+                    "volume": ""
+                }]
+            }
+        ]
+    }, {
+        "navName": "发酵曲",
+        "listName": ["大曲酒", "小曲酒",  "混合曲酒"],
+        "navList": [{
+            "name": "大曲酒",
+            "introduction": "&nbsp&nbsp大曲酒是中国传统的白酒之一，也被称为大曲白酒。它是使用大曲（也称为酒曲或酒麴）作为发酵剂来酿造的，因此得名。大曲酒在中国有着悠久的历史，被认为是中国白酒中的一种经典品类。",
+            "origin": "",
+            "raw_materials": "粮食，如大米、小麦、玉米、高粱等",
+            "common_types": [{
+                "name": "洋河大曲",
+                "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230724105429.png",
+                "degree": "42%",
+                "volume": ""
+            },
+            {
+                "name": "绵竹大曲",
+                "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230724105437.png",
+                "degree": "52%",
+                "volume": ""
+            }]
+        },
+        {
+            "name": "小曲酒",
+            "introduction": "&nbsp&nbsp小曲酒又称酒药，是一种用高粱制成的药酒，有无药小曲和药曲之分。 小曲的品种很多，所用药材亦彼此各异。 但其中所含微生物以根霉、毛霉为主。 小曲中的微生物是经过自然选育培养的，并经过曲母接种，使有益微生物大量繁殖，所以不仅含有糖化菌类，同时含有酵母菌类。",
+            "origin": "",
+            "raw_materials": "",
+            "common_types": [{
+                "name": "山西汾酒",
+                "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230724105449.png",
+                "degree": "42%",
+                "volume": ""
+            },
+            {
+                "name": "汉王小曲",
+                "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230724105455.png",
+                "degree": "53%",
+                "volume": ""
+            }]
+        },
+        {
+            "name": "混合曲酒",
+            "introduction": "&nbsp&nbsp混合曲酒，也称为调和威士忌，是由不同种类和品牌的威士忌混合而成的酒类。它是将来自不同蒸馏厂、不同麦芽和谷物、不同年份的威士忌混合在一起的产物。这样的组合可以产生独特的风味和口感，使得混合曲酒成为许多人喜爱的选择。",
+            "origin": "",
+            "raw_materials": "",
+            "common_types": [{
+                "name": "舍得",
+                "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230724105509.png",
+                "degree": "52%",
+                "volume": ""
+            },
+            {
+                "name": "泸州老窖",
+                "img": "https://cdn.jsdelivr.net/gh/taolin011/myPicgo@second/img/20230724073100.png",
+                "degree": "52%",
+                "volume": ""
+            }]
+        }]
+    }]
+}
