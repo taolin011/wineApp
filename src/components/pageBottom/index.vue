@@ -1,12 +1,12 @@
 <template>
   <div class="bottom">
     <div class="home">
-      <img src="./image/家.png" alt="" />
+      <img src="../../../public/image/家.png" alt="" />
       <span>酒品首页</span>
     </div>
     <div class="icon">
-      <img src="./image/爱心.png" alt="" />
-      <img src="./image/用户.png" alt="" />
+      <img src="../../../public/image/爱心.png" alt="" />
+      <img src="../../../public/image/用户.png" alt="" />
     </div>
   </div>
 </template>

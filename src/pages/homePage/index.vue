@@ -104,7 +104,6 @@ export default {
       if (result.status === 200) {
         myIcon.iconList = result.data.icon;
         myIcon.swiperList = result.data.swiper;
-        console.log(myIcon.list);
       }
     };
     onMounted(() => {
