@@ -1,6 +1,9 @@
 <template>
-
-  <router-view ></router-view>
+ <router-view v-slot={Component}>
+        <keep-alive include="homePage">
+            <component :is="Component" />
+        </keep-alive>
+    </router-view>
   </template>
 
 <script>

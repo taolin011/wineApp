@@ -48,7 +48,7 @@
       <img src="./image/中国酒文化.jpg" alt="" />
     </div>
   </div> -->
-  <pageBottom></pageBottom>
+
 </template>
   
   <script>
